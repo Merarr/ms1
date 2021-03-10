@@ -1,0 +1,13 @@
+.button { background: orange; }
+.button:hover {background: green; }
+.button:active {background:blue; }
+
+.block:before {content: "DO"; color: red;}
+.block:after {content: "AFTER"; color: blue;}
+
+body { 
+ font-family: 'helveticaneue', Helvetica, sans-serif; 
+ font-weight: 300; 
+ font-size: 16px; 
+ line-height: 1.42; 
+}
