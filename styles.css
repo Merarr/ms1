@@ -1,13 +1,158 @@
-.button { background: orange; }
-.button:hover {background: green; }
-.button:active {background:blue; }
-
-.block:before {content: "DO"; color: red;}
-.block:after {content: "AFTER"; color: blue;}
 
 body { 
- font-family: 'helveticaneue', Helvetica, sans-serif; 
+ background-color: #29292c; 
+ font-family: "Open Sans", Arial, Helvetica, sans-serif;
+ color: #fff;
  font-weight: 300; 
  font-size: 16px; 
  line-height: 1.42; 
+}
+
+a {
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: nomral; 
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+.menu__link {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: #dfb56d;
+}
+
+
+.contacts {
+    font-style: normal;
+    text-align: right;
+}
+
+.contacts__phone {
+    text-decoration: none;
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+
+.contacts__dropdown-title {
+    font-size: 13px;
+    text-decoration: underline;
+    color: #dfb56d;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1150px;
+}
+
+.header {
+    height: 120px;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.logo {
+    display:block;
+    position: absolute;
+    top:57px;
+    left: 0;
+}
+
+.menu {
+    position: absolute;
+    top: 65px; 
+    left: 250px;
+}
+
+.contacts {
+    position: absolute;
+    top: 48px;
+    right: 0;
+}
+
+.hero__text-section {
+    width: 400px;
+    margin-top: 250px;
+}
+
+.hero__title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 18px;
+}
+
+.hero__sub {
+    font-size: 18px;
+    color: #dfb56d;
+    margin-bottom: 45px;
+}
+
+
+.btn {
+    background: #dfb56d;
+    border-radius: 4px;
+    padding: 18px 39px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover { 
+    background: #d3a556;
+    box-shadow: 0 0 25px 0 rgba(223, 181, 109, .15); 
+    
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.section {
+    margin-bottom: 138px;
+}
+
+.section__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+
+.offers__item {
+    min-height: 470px;
+    border-radius: 4px;
+    background: #fff;
+    display: inline-block;
+    margin-right: 28px;
+    width: 322px;
+}
+
+.offers__item:last-child {
+    margin-right: 0;
+}
+
+.offers__header {
+    min-height: 162px;
+    margin-bottom: 28px;
 }
