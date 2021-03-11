@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-	<div class="wrapper">
+	<div class="wrapper main-page-wrapper">
 		<section class="hero">
 			<div class="container">
 				<header class="header">
@@ -62,7 +62,7 @@
 								</div>
 							  </div>
 							<div class="offers__btn--wrapper">
-							  <a href="#" class="btn">Подробнее</a>
+							  <a href="#" class="btn btn--black">Подробнее</a>
 							</div>
 						  </div>
 					  </li>
@@ -83,7 +83,7 @@
 							  </div>
 							</div>
 						<div class="offers__btn--wrapper">
-							<a href="#" class="btn">Подробнее</a>
+							<a href="#" class="btn btn--black">Подробнее</a>
 						</div>
 					</div>
 					</li>
@@ -104,14 +104,16 @@
 							  </div>
 							</div>
 							<div class="offers__btn--wrapper">
-							<a href="#" class="btn">Подробнее</a>
+							<a href="#" class="btn btn--black">Подробнее</a>
 							</div>
 						</div>
 					</li>
 				  </ul>
 			 </div>
 		</section>
-		<div class="section">
+
+		<section class="section">
+		<div class="section">	
 			<div class="container">
 				<h2 class="section__title">Новости</h2>
 				<ul class="news">
@@ -132,8 +134,80 @@
 						</div>
 					</li>
 				</ul>
+				<div class="pager">
+					<div class="pager__display">Страница 1 из 4</div>
+						<ul class="pager__list">
+							<li class="pager__item pager__item--active"> <a href="#" class="pager__link">1</a> </li>
+							<li class="pager__item"> <a href="#" class="pager__link">2</a> </li>
+							<li class="pager__item"> <a href="#" class="pager__link">3</a> </li>
+							<li class="pager__item"> <a href="#" class="pager__link">4</a> </li>
+						</ul>
+				</div>
 			</div>
 		</div>	
+		</section>
+
+		<section class="section">
+			<div class="container">
+				<div class="about">
+					<div class="about__desc">
+						<div class="about__title">
+							О банке
+							<div class="about__desc-text">
+								<p>
+									Lion Bank - самый дорогой российский бренд и самый 
+									сильный банковский бренд в мире по версии 
+									Brand Finance. Наша цель — сделать 
+									СберБанк одной из лучших финансовых и 
+									технологических компаний в мире. 
+								</p>
+							</div>
+							<a href="#" class="btn btn--color--ginger">Подробнее</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer-container">
+			<div class="container footer-container__content">
+				<div class="footer">
+					<a href="/" class="logo">
+						<img src="./images/logo.png" alt="" class="logo__img">
+					</a>
+					<nav class="menu">
+						<ul class="menu__list">
+							<li class="menu__item menu__item--active"> <a href="#" class="menu__link">Главная</a>
+							<li class="menu__item">	<a href="#" class="menu__link">Услуги</a>
+							<li class="menu__item">	<a href="#" class="menu__link">Отзывы</a>
+							</li>
+						</ul>
+					</nav>
+					<ul class="social">
+						<li class="social__item social__item--icon--telegram">
+							<a href="#" class="social__link"></a>
+						</li>
+						<li class="social__item social__item--icon--vk">
+							<a href="#" class="social__link"></a>
+						</li>
+						<li class="social__item social__item--icon--facebook">
+							<a href="#" class="social__link"></a>
+						</li>
+						<li class="social__item social__item--icon--instagram">
+							<a href="#" class="social__link"></a>
+						</li>
+					</ul>
+					<address>
+						<div class="contacts">
+							<div class="contacts__desc">
+								Бесплатный звонок по России
+							</div>
+							<a href="tel:+89250423169" class="contacts__phone">8-925-042-31-69</a>
+							<div class="contacts__dropdown-title">График работы</div>
+						</div>
+					</address>
+				</div>
+			</div>
+		</footer>
 	</div>
 </body>
 </html>
